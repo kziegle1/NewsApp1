@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_text_size18">18sp</dimen>
+    <dimen name="default_text_size16">16sp</dimen>
+    <dimen name="standard_margin_8dp" >8dp</dimen>
+    <dimen name="small_margin_4dp">4dp</dimen>
+    <dimen name="filter_special_margin_left_12dp">12dp</dimen>
+    <dimen name="filter_text_14sp">14sp</dimen>
+    <dimen name="large_margin_16dp">16dp</dimen>
+    <dimen name="small_padding_4dp">4dp</dimen>
+</resources>

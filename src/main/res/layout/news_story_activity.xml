@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ListView
+    android:id="@+id/news_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:paddingLeft="@dimen/large_margin_16dp"
+    android:paddingRight="@dimen/large_margin_16dp" />
+
+        <TextView
+            android:id="@+id/empty_textview"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_centerInParent="true"
+            android:alpha="3.85"
+            android:src="@drawable/loading_circle" />
+
+        <!-- Loading indicator is only shown before the first load -->
+        <ProgressBar
+            android:id="@+id/news_loading_progress"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_width="375dp"
+            android:layout_height="375dp"
+            android:layout_centerInParent="true"
+            android:indeterminate="true" />
+
+</RelativeLayout>
+

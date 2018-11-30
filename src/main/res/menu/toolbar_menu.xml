@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".NewsStoryActivity">
+    <item android:id="@+id/current"
+        android:title="@string/settings_menu_current_filters"
+        android:icon="@drawable/loading_circle"
+        app:showAsAction="ifRoom" />
+    <item android:id="@+id/refresh"
+        android:title="@string/settings_menu_refresh"
+        android:icon="@drawable/loading_circle"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/settings"
+        android:title="@string/settings_menu_item"
+        android:icon="@drawable/loading_circle"
+        app:showAsAction="ifRoom"/>
+
+</menu>

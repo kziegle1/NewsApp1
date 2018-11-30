@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_list_preference">
+        <item>Business</item>
+        <item>Technology</item>
+        <item>Politics</item>
+        <item>Law</item>
+        <item>Science</item>
+    </string-array>
+    <string-array name="entryvalues_list_preference">
+        <item>Business</item>
+        <item>Technology</item>
+        <item>Politics</item>
+        <item>Law</item>
+        <item>Science</item>
+    </string-array>
+
+    <string-array name="entries_sort_preference">
+        <item>Oldest</item>
+        <item>Newest</item>
+    </string-array>
+    <string-array name="entryvalues_sort_preference">
+        <item>Oldest</item>
+        <item>Newest</item>
+    </string-array>
+</resources>

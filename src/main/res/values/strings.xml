@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">NewsApp1</string>
+
+    <string name="REQUEST_URL_ONE"><![CDATA[https://content.guardianapis.com/search?from-date=2017-01-01&to-date=2018-11-27&show-tags=contributor&page-size=20&q=driverless%20car&api-key=91574d5c-1798-4125-b7d7-b80c7351862e]]></string>
+
+    <string name="please_check_back_later_or_refresh">Please Check Again Later</string>
+
+    <string name="please_check_network_settings_and_refresh">Please check your network settings</string>
+
+    <!-- Text to display in the list when there are no stories [CHAR LIMIT=NONE] -->
+    <string name="no_news_available">No story found.</string>
+
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_network_available">No internet connection.</string>
+
+    <string name="tag_list_key"> Tag List Key</string>
+    <string name="tag_list_default_value">Tag List Default Value</string>
+
+    <string name="date_list_key">Date List Key</string>)
+    <string name="date_list_default_value">Date list default value</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_menu_refresh">Menu Refresh</string>
+    <string name="settings_menu_current_filters">Current Filters</string>
+
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Story Settings</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">Date</string>
+    <string name="settings_order_by_default"></string>
+
+    <string name="settings_order_by_webTitle_label">Order By WebTitle</string>
+    <string name="settings_order_by_webTitle_value">Order by WebTitle Value</string>
+
+    <string name="settings_start_date">Starting Date</string>
+    <string name="settings_start_date_key">edittext_date_start</string>
+    <string name="settings_start_date_default">2018-01-01</string>
+
+    <string name="settings_end_date">Ending Date</string>
+    <string name="settings_end_date_key">edittext_date_end</string>
+    <string name="settings_end_date_default">2018-11-21</string>
+
+    <string name="settings_other_category">Other Category</string>
+    <string name="title_date_start_preference">Starting Date</string>
+    <string name="title_date_end_preference">Ending Date</string>
+
+    <string name="dialog_title_list_preference">Choose Your Sport</string>
+    <string name="title_list_preference">Other News Selector</string>
+    <string name="settings_category_key">list_preference</string>
+    <string name="settings_category_default">Technology</string>
+
+    <string name="dialog_title_sort_preference">Choose Your Sorting View</string>
+    <string name="title_sort_preference">Sorting Preference</string>
+    <string name="settings_sort_key">sort_preference</string>
+    <string name="settings_sort_default">Technology</string>
+    <string name="filter_end_date">Filter End Date</string>
+    <string name="filter_start_date">Filter Start Date</string>
+    <string name="filter_technology_searched">Technology Searched</string>
+    <string name="filters_current_header">Current Header</string>
+
+</resources>
